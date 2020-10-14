@@ -142,6 +142,14 @@ public class CallLogModule extends ReactContextBaseJavaModule {
                 return "INCOMING";
             case Calls.MISSED_TYPE:
                 return "MISSED";
+            case Calls.REJECTED_TYPE:
+                return "REJECTED";
+            case Calls.VOICEMAIL_TYPE:
+                return "VOICEMAIL";
+            case Calls.BLOCKED_TYPE:
+                return "BLOCKED";
+            case Calls.ANSWERED_EXTERNALLY_TYPE:
+                return "ANSWERED_EXTERNALLY";
             default:
                 return "UNKNOWN";
         }
